@@ -19,6 +19,8 @@ h1{
 
  ol/*menu vers lien web*/
  {
+   font-size: 24px;/*taille police*/
+   font-style: oblique;
    background-color: gray;
  }
  /*------------tableau-----------*/
@@ -39,4 +41,5 @@ footer
 {
 height:50px;
 background: gray;
+font-size: 20px;
 }
