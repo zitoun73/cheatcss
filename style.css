@@ -1,4 +1,7 @@
 /*--------------------header-----------------------------*/
+html{
+  background-color: #D8BFD8;
+}
 h1{
   background-color: orange;/*titre de la page*/
   background-size: 100%;
@@ -24,6 +27,10 @@ h1{
    background-color: gray;
  }
  /*------------tableau-----------*/
+ em{
+   font-size: 20px;
+   font-family: fantasy;
+ }
  table
  {
    border-collapse: collapse;
@@ -42,4 +49,24 @@ footer
 height:50px;
 background: gray;
 font-size: 20px;
+}
+img{
+	max-width:100%;
+	}
+	img{heigh:auto;}
+
+  /*---------------------responsive-------------------*/
+@media screen and (min-width: 720px){
+color: #FF0000;
+border: #000 1px dashed;
+}
+
+@media screen and (min -width: 480px) and (max-width: 720px){
+color:  #333;
+border: #CCC 1px solid;
+}
+
+@media screen and (max-width: 480px){
+color:  #000;
+border:none;
 }
